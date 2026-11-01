@@ -1,0 +1,31 @@
+name: 内容问题
+description: 事实错误、出处不对、算错的数，或者读不懂的地方
+labels: ["内容"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 位置
+      description: 哪一章哪一节，例如"第 8 章 §8.6"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型
+      options:
+        - 事实或数字有误
+        - 出处不对或查不到
+        - 推算算错了
+        - 讲得不清楚，读不懂
+        - 错别字或排版
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体说明
+      description: 书里怎么写的，你认为应该是什么。涉及数字的话，请附上你核对用的出处（报告页码、代码路径和行号、W&B run 名等）。
+    validations:
+      required: true

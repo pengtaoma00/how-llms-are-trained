@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>从零训练大模型：以 ZGCM-1 为例</title>
+  <meta name="description" content="以 ZGCM-1 的公开报告、代码和训练曲线为案例，讲清楚从零训练一个大语言模型的全过程">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.css">
+  <style>
+    .markdown-section { max-width: 920px; }
+    .markdown-section table { display: table; width: 100%; }
+    .markdown-section img { display: block; margin: 0 auto; }
+    .markdown-section details { margin: .6em 0; padding: .4em .8em; background: #f8f8f8; border-radius: 4px; }
+    .markdown-section details summary { cursor: pointer; color: #42b983; }
+    .katex-display { overflow-x: auto; overflow-y: hidden; }
+  </style>
+</head>
+<body>
+  <div id="app">加载中……</div>
+  <script>
+    window.$docsify = {
+      name: '从零训练大模型',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      relativePath: true,
+      search: {
+        placeholder: '搜索',
+        noData: '没有找到',
+        depth: 3
+      },
+      pagination: {
+        previousText: '上一章',
+        nextText: '下一章',
+        crossChapter: true,
+        crossChapterText: true
+      },
+      copyCode: {
+        buttonText: '复制',
+        successText: '已复制'
+      }
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/marked@3"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@1/dist/docsify-katex.js"></script>
+</body>
+</html>

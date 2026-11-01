@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ZGCM-1 官方仓库
+    url: https://github.com/zgcagi/ZGCM-1
+    about: 关于 ZGCM-1 模型本身、训练代码或权重的问题，请到官方仓库提。本仓库只讨论这本书的内容。
