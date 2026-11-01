@@ -41,7 +41,7 @@ python3 -m http.server 3000 -d docs
 | [3　Tokenizer](docs/03_Tokenizer.md) | 字节级 BPE；ZGCM 直接用 GLM-5.1 的 tokenizer；第一步 loss 应接近 $\ln V$ |
 | [4　数据一：来源与获取](docs/04_数据一_来源与获取.md) | 在已清洗的公开数据集上二次筛选；约 21% 的记录只能 index_only 发布 |
 | [5　数据二：清洗流水线](docs/05_数据二_清洗流水线.md) | 每篇文档独立判 keep/review/drop |
-| [6　数据三：去重、质量、去污染](docs/06_数据三_去重质量去污染.md) | 精确去重、SimHash、MinHash-LSH；跨阶段去重和去污染代码没公开 |
+| [6　数据三：去重、质量、去污染](docs/06_数据三_去重质量去污染.md) | 精确去重、SimHash、MinHash-LSH |
 | [7　数据四：配比与课程](docs/07_数据四_配比与课程.md) | 用 0.3B 代理模型试配比；stage 1 按词汇复杂度排课程；数据量 4.19T，训练量 4.78T |
 | [8　数据五：从文本到训练样本](docs/08_数据五_从文本到训练样本.md) | 文档首尾相接切成 16,385 token；照仓库原样跑会悄悄打乱课程 |
 | [9　模型架构](docs/09_模型架构.md) | 27 层 128 窗口滑窗加 5 层全局；256K 时 KV cache 从 32 GiB 降到约 5 GiB |
