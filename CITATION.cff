@@ -3,9 +3,9 @@ message: 如果这本书对你有帮助，引用时可以使用下面的信息�
 title: 从零训练大模型：以 ZGCM-1 为例
 type: generic
 authors:
-  - alias: "pengtaoma00"
-repository-code: "https://github.com/pengtaoma00/how-llms-are-trained"
-url: "https://pengtaoma00.github.io/how-llms-are-trained/"
+  - alias: "Ma-Potter"
+repository-code: "https://github.com/Ma-Potter/how-llms-are-trained"
+url: "https://ma-potter.github.io/how-llms-are-trained/"
 license: CC-BY-NC-SA-4.0
 date-released: 2026-11-01
 keywords:

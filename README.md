@@ -18,10 +18,10 @@ ZGCM 没用、但业界常用的做法，比如 MinHash-LSH、ZeRO-3、YaRN、PP
 
 直接在 GitHub 上点开 [docs/](docs/) 里的 markdown 就能读。
 
-想要带侧边栏和搜索的网页版，可以直接打开 <https://pengtaoma00.github.io/how-llms-are-trained/>，也可以在本地起一个静态服务：
+想要带侧边栏和搜索的网页版，可以直接打开 <https://ma-potter.github.io/how-llms-are-trained/>，也可以在本地起一个静态服务：
 
 ```bash
-git clone https://github.com/pengtaoma00/how-llms-are-trained.git
+git clone https://github.com/Ma-Potter/how-llms-are-trained.git
 cd how-llms-are-trained
 python3 -m http.server 3000 -d docs
 # 浏览器打开 http://localhost:3000
